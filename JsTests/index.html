@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Labs</title>
+    </head>
+    <body>
+        <main>
+            <!-- Marks -->
+            <section>
+                <h2>Marks</h2>
+                <input type="number" placeholder="Enter n" id="n"> <br> <br>
+                <input id="number" type="number" placeholder="Mark">
+                <button onclick="solve()">Solve</button> 
+                <div class="div"></div>
+            </section>
+            <!-- Age -->
+            <section>
+                <h2>Age</h2>
+                <input type="number" id="ageNumber" placeholder="Number of ages"> <br> <br>
+                <input type="number" id="ageMin" placeholder="Enter min age"> <br> <br>
+                <input type="number" id="ageMax" placeholder="Enter max age"> <br> <br>
+                <input type="number" id="age" placeholder="Age"><br> <br>
+                <button onclick="ageCalculate()">Calculate</button>
+                <button onclick="stuff()">Min Max Medium Gap</button>
+                <div class="age"></div>
+            </section>
+            <!-- temperature -->
+            <section>
+                <h2>Temperature</h2>
+                <input type="number" id="Month" placeholder="Month"> <br> <br>
+                <button onclick="daysNumber()">Start</button> 
+                <button onclick="stuffTemperature()">Min Max Med Gap</button>
+                <div class="Temperature"></div>
+            </section>
+            <!-- Time -->
+            <section>
+                <h2>Time (Bus)</h2>
+                <input type="number" id="busNumber" placeholder="Number of buses"> <br> <br>
+                <input type="time" id="timeMin"> Enter min value <br> <br>
+                <input type="time" id="timeMax"> Enter max value <br> <br>
+                <input type="time" id="time"> Enter Time<br> <br>
+                <button onclick="timeCalculate()">Calculate</button> <br> <br>
+                <button onclick="stuffTime()">Min Max Med Gap</button>
+                <div class="time"></div>
+            </section>
+        </main>
+        <br> <br> <br> <br>
+
+        <main>
+             <!-- Salary -->
+             <section>
+                <h2>Salary</h2>
+                <input type="number" id="salaryNumber" placeholder="Staff"> <br> <br>
+                <input type="number" id="salaryMin" placeholder="Enter min salary"> <br> <br>
+                <input type="number" id="salaryMax" placeholder="Enter max salary"> <br> <br>
+                <input type="number" id="salary" placeholder="Salary"><br> <br>
+                <button onclick="salaryCalculate()">Calculate</button> <br> <br>
+                <button onclick="stuffSalary()">Min Max Medium Gap</button>
+                <div class="salary"></div>
+            </section>
+             <!-- Sport -->
+             <section>
+                <h2>Sport</h2>
+                <input type="number" id="sportNumber" placeholder="Sportmen"> <br> <br>
+                <input type="number" id="sportMin" placeholder="Enter min height"> <br> <br>
+                <input type="number" id="sportMax" placeholder="Enter max height"> <br> <br>
+                <input type="number" id="sport" placeholder="Height"><br> <br>
+                <button onclick="sportCalculate()">Calculate</button> <br> <br>
+                <button onclick="stuffSport()">Min Max Medium Gap</button>
+                <div class="sport"></div>
+            </section>
+             <!-- PIB -->
+             <section>
+                <h2>PIB</h2>
+                <input type="number" id="countryNumber" placeholder="Countries"> <br> <br>
+                <input type="number" id="countryMin" placeholder="Enter min PIB"> <br> <br>
+                <input type="number" id="countryMax" placeholder="Enter max PIB"> <br> <br>
+                <input type="number" id="country" placeholder="PIB"><br> <br>
+                <button onclick="countryCalculate()">Calculate</button> <br> <br>
+                <button onclick="stuffCountry()">Min Max Medium Gap</button>
+                <div class="country"></div>
+            </section>
+             <!-- Airline -->
+             <section>
+                <h2>Airline</h2>
+                <input type="number" id="airNumber" placeholder="Number of airplaneslab1/"> <br> <br>
+                <input type="time" id="timeMin__air"> Enter min value <br> <br>
+                <input type="time" id="timeMax__air"> Enter max value <br> <br>
+                <input type="time" id="time__air"> Enter Time<br> <br>
+                <button onclick="timeAirCalculate()">Calculate</button> <br> <br>
+                <button onclick="stuffAirTime()">Min Max Med Gap</button>
+                <div class="timeAir"></div>
+            </section>
+        </main>
+        
+        <script src="js/lab1/lab1_1.js"></script>
+        <script src="js/lab1/lab1_3.js"></script>
+        <script src="js/lab1/lab1_4.js"></script>
+        <script src="js/lab1/lab1_5.js"></script>
+        <script src="js/lab1/lab1_6.js"></script>
+        <script src="js/lab1/lab1_7.js"></script>
+        <script src="js/lab1/lab1_8.js"></script>
+        <script src="js/lab1/lab1_16.js"></script>
+    </body>
+</html>

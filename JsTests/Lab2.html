@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Lab 2</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h2>Friend & perfect & Fibonacci</h2>
+            <input type="number" id="number" placeholder="Number"> <br> <br>
+            <input type="number" id="intervalMin" placeholder="Enter min value of interval"> <br> <br>
+            <input type="number" id="intervalMax" placeholder="Enter max value of interval"> <br> <br>
+            <input type="number" id="n" placeholder="Enter n"> <br> <br>
+        </section>
+    </main>
+    <main>
+        <section>
+            <h2>Perfect?</h2>
+            <button onclick="perfectCheck()">Perfect?</button>
+            <button onclick="perfectInterval()">All perfect numbers from interval</button> <br> <br>
+            <button onclick="firstPerfect()">N perfect numbers from interval</button> <br> <br>
+        </section>
+        <section>
+            <h2>Fibonacci</h2>
+            <button onclick="ifFibonacci()">Firstly enter n</button>
+            <button onclick="intervalFibonacci()">All numbers from interval</button> <br> <br>
+            <button onclick="FibonacciPrime()">Optimus Prime</button>
+            <button id="Big">Biggest Number</button>
+            <div class="toast"></div>
+        </section>
+        <section>
+            <h2>Armstrong</h2>
+            <button onclick="ifArmstrong()">Check if Armstrong</button>
+            <button onclick="intervalArmstrong()">All numbers from interval</button> <br> <br>
+            <button onclick="ArmstrongPrime()">Armstrong Prime</button>
+            <button id="Armstrong-Biggest">Biggest number</button> <br> <br>
+            <button onclick="firstArmstrong()">First n</button>
+            <div class="armstrong"></div>
+        </section>
+    </main>
+
+    <script src="js/lab2/Ex1.js"></script>
+    <script src="js/lab2/Ex2.js"></script>
+    <script src="js/lab2/Ex15.js"></script>
+</body>
+</html>
